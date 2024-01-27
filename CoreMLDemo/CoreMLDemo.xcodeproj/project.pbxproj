@@ -15,6 +15,8 @@
 		ABB5C020297DE18E00F514DC /* MLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C01C297DE18D00F514DC /* MLView.swift */; };
 		ABB5C021297DE18E00F514DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C01D297DE18D00F514DC /* Extensions.swift */; };
 		ABB5C022297DE18E00F514DC /* MLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5C01E297DE18D00F514DC /* MLViewModel.swift */; };
+		ABF739252B65C5910074829F /* MyFirstMLModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ABF739242B65C5910074829F /* MyFirstMLModel.mlmodel */; };
+		ABF739272B65C84F0074829F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF739262B65C84F0074829F /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		ABB5C01C297DE18D00F514DC /* MLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLView.swift; sourceTree = "<group>"; };
 		ABB5C01D297DE18D00F514DC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		ABB5C01E297DE18D00F514DC /* MLViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLViewModel.swift; sourceTree = "<group>"; };
+		ABF739242B65C5910074829F /* MyFirstMLModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MyFirstMLModel.mlmodel; sourceTree = "<group>"; };
+		ABF739262B65C84F0074829F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB5C01C297DE18D00F514DC /* MLView.swift */,
+				ABF739262B65C84F0074829F /* ImagePicker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		ABB5C023297DE1BD00F514DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ABF739242B65C5910074829F /* MyFirstMLModel.mlmodel */,
 				ABB5C01B297DE18D00F514DC /* GoogLeNetPlaces.mlmodel */,
 			);
 			path = Model;
@@ -182,9 +188,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABB5C021297DE18E00F514DC /* Extensions.swift in Sources */,
+				ABF739252B65C5910074829F /* MyFirstMLModel.mlmodel in Sources */,
 				ABB5C00F297DE17000F514DC /* ContentView.swift in Sources */,
 				ABB5C00D297DE17000F514DC /* CoreMLDemoApp.swift in Sources */,
 				ABB5C01F297DE18E00F514DC /* GoogLeNetPlaces.mlmodel in Sources */,
+				ABF739272B65C84F0074829F /* ImagePicker.swift in Sources */,
 				ABB5C020297DE18E00F514DC /* MLView.swift in Sources */,
 				ABB5C022297DE18E00F514DC /* MLViewModel.swift in Sources */,
 			);
